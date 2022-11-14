@@ -1,0 +1,11 @@
+{
+  "name": "empty_options",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "build": "node ./../../node_modules/vite/bin/vite build -c vite.config.js"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
