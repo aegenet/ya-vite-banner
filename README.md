@@ -1,6 +1,6 @@
 [![npm version](https://img.shields.io/npm/v/@aegenet/ya-vite-banner.svg)](https://www.npmjs.com/package/@aegenet/ya-vite-banner)
 [![Build Status](https://github.com/aegenet/ya-vite-banner/actions/workflows/ci.yml/badge.svg)](https://github.com/aegenet/ya-vite-banner/actions)
-[![codecov](https://codecov.io/gh/aegenet/ya-vite-banner/branch/main/graph/badge.svg?token=)](https://codecov.io/gh/aegenet/ya-vite-banner)
+[![codecov](https://codecov.io/gh/aegenet/ya-vite-banner/branch/main/graph/badge.svg?token=2WBPJXMZEP)](https://codecov.io/gh/aegenet/ya-vite-banner)
 <br />
 
 # @aegenet/ya-vite-banner
@@ -48,11 +48,11 @@ export default async function config(options) {
 ```
 
 # Coverage
-[![codecov](https://codecov.io/gh/aegenet/ya-vite-banner/branch/main/graph/badge.svg?token=)](https://codecov.io/gh/aegenet/ya-vite-banner)
+[![codecov](https://codecov.io/gh/aegenet/ya-vite-banner/branch/main/graph/badge.svg?token=2WBPJXMZEP)](https://codecov.io/gh/aegenet/ya-vite-banner)
 
-![Coverage sunburst](https://codecov.io/gh/aegenet/ya-vite-banner/branch/main/graphs/sunburst.svg?token=)
+![Coverage sunburst](https://codecov.io/gh/aegenet/ya-vite-banner/branch/main/graphs/sunburst.svg?token=2WBPJXMZEP)
 
-![Coverage tree](https://codecov.io/gh/aegenet/ya-vite-banner/branch/main/graphs/tree.svg?token=)
+![Coverage tree](https://codecov.io/gh/aegenet/ya-vite-banner/branch/main/graphs/tree.svg?token=2WBPJXMZEP)
 
 # License
 
