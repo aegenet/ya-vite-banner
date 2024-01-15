@@ -1,8 +1,8 @@
-const dts = require('rollup-plugin-dts');
-const path = require('node:path');
-const { nodeExternals } = require('@aegenet/ya-node-externals');
+import dts from 'rollup-plugin-dts';
+import path from 'node:path';
+import { nodeExternals } from '@aegenet/ya-node-externals';
 
-module.exports = async function(options) {
+export default async function(options) {
   const folder = options.folder ? options.folder + '/' : '';
 
   return {
