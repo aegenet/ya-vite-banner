@@ -17,7 +17,7 @@
   },
   "typings": "./dist/bundle.d.ts",
   "files": [
-    "build"
+    "dist"
   ],
   "author": "Alexandre Genet",
   "repository": {
