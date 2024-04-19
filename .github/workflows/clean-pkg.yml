@@ -13,15 +13,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20.x
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: "https://npm.pkg.github.com"
           # Defaults to the user or organization that owns the workflow file
-          scope: '@aegenet'
+          scope: "@aegenet"
       - name: Delete old dev packages
         uses: aegenet/gh-delete-package-versions@v5.5.0
         with:
-          package-name: 'ya-vite-banner'
-          package-type: 'npm'
+          package-name: "ya-vite-banner"
+          package-type: "npm"
           min-versions-to-keep: 5
           include-versions: '^999\.|\-dev$'
-          token: ${{ secrets.NPM_AUTH_TOKEN }}
+          token: ${{ secrets.DELETE_PACKAGES_TOKEN }}
           sleep-interval: 10000
