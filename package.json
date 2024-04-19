@@ -4,17 +4,24 @@
   "version": "0.0.0-dev",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
-  "keywords": ["vite", "banner", "cli"],
+  "keywords": [
+    "vite",
+    "banner",
+    "cli"
+  ],
   "exports": {
     "node": {
+      "types": "./dist/bundle.d.ts",
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs"
     },
     "default": {
+      "types": "./dist/bundle.d.ts",
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs"
     }
   },
+  "types": "./dist/bundle.d.ts",
   "typings": "./dist/bundle.d.ts",
   "files": [
     "dist"
